@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#111E2F"
+    tools:context=".fallSensor.Settings">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="start">
+
+        <ImageView
+            android:id="@+id/back_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="start"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/baseline_arrow_back_24"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:text="Pengaturan"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="80dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:gravity="center_horizontal"
+            android:text="Perbaharui Informasi"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="15dp"
+            android:layout_marginBottom="50dp"
+            android:textColor="@color/white"
+            android:justificationMode="inter_word"
+            android:text="Catatan: Masukkan nomor telepon yang ingin Anda gunakan untuk menerima SMS jika ponsel Anda terjatuh!"/>
+
+
+        <EditText
+            android:id="@+id/mobile_number_input"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:inputType="phone"
+            android:layout_marginBottom="30dp"
+            android:ems="10"
+            android:paddingStart="24dp"
+            android:background="@drawable/edittext_background"
+            android:hint="Masukan nomor handphone anda" />
+
+        <EditText
+            android:id="@+id/mobile_name_input"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="70dp"
+            android:ems="10"
+            android:paddingStart="24dp"
+            android:background="@drawable/edittext_background"
+            android:hint="Masukan nama handphone anda" />
+
+        <Button
+            android:id="@+id/save_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/lavender"
+            android:textColor="@color/black"
+            android:text="SIMPAN"/>
+
+    </LinearLayout>
+
+</LinearLayout>

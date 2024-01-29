@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@+id/account">
+        <item
+            android:title="Akun"
+            android:icon="@drawable/password"
+            android:id="@+id/loginDetails"/>
+    </group>
+
+    <group
+        android:id="@+id/cards">
+        <item
+            android:title="Kartu Kredit"
+            android:icon="@drawable/ic_pay"
+            android:id="@+id/cardDetails"/>
+    </group>
+
+    <group
+        android:id="@+id/mobileBankings">
+        <item
+            android:title="Bank"
+            android:icon="@drawable/bank_1"
+            android:id="@+id/bankDetails"/>
+    </group>
+
+    <group
+        android:id="@+id/passwordGen">
+        <item
+            android:title="Pembuat Password"
+            android:icon="@drawable/password1"
+            android:id="@+id/passwordGenerator"/>
+    </group>
+
+    <group
+        android:id="@+id/settings2">
+        <item
+            android:title="Ganti PIN"
+            android:icon="@drawable/pin"
+            android:id="@+id/settings"/>
+    </group>
+
+</menu>

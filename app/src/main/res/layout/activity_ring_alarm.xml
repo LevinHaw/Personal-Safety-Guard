@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#111E2F"
+    tools:context=".fallSensor.RingAlarm">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:text="PELACAK"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+
+        <Button
+            android:id="@+id/stop_ringing_btn"
+            android:backgroundTint="#FF0000"
+            android:layout_width="300dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="140dp"
+            android:textSize="25dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Jangan kirimkan pesan"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="150dp"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/white"
+            android:text="Catatan: Jika Anda tidak ingin mengirim pesan ke lokasi Anda saat ini, Jadi klik tombol ini!"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

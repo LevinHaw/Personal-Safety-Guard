@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="15dp"
+    android:id="@+id/bankItemCard"
+    android:backgroundTint="#176B87"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/itemIcon"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/bank" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/itemIcon"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:text="SBI Bank"
+            android:textSize="20sp"
+            android:fontFamily="@font/petrona"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:id="@+id/bankName"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/itemIcon"
+            android:layout_below="@id/bankName"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20sp"
+            android:text="1570-8787-545-54545"
+            android:fontFamily="@font/petrona"
+            android:textColor="@color/black"
+            android:id="@+id/bankAccountNumber"
+            />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

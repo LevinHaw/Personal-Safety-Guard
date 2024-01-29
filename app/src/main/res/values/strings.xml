@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Personal Safety Guard</string>
+    <string name="desc_title">"Lindungi smartphone anda, karena pada ponsel anda menyimpan banyak informasi sensitif daripada dompet anda. Sedikit usaha extra dapat membantu dalam menjaga keamaan informasi pribadi anda".</string>
+    <string name="desc_fitur1">Tempat menyimpan dan mengelola data pribadi secara terenkripsi</string>
+    <string name="desc_fitur2">Meminta bantuan kepada kerabat terdekat ketika terjadi hal-hal yang tidak diinginkan</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="onboarding_slide1_title">Personal Safety Guard</string>
+    <string name="onboarding_slide1_subtitle">Brankas</string>
+    <string name="onboarding_slide1_desc">Fitur untuk menyimpan dan mengelola data pribadi secara terenkripsi.</string>
+
+
+    <string name="onboarding_slide2_subtitle">Proteksi</string>
+    <string name="onboarding_slide2_desc">Fitur ini dapat meminta bantuan dari kerabat terdekat Anda ketika terjadi masalah.</string>
+
+
+    <string name="onboarding_slide3_subtitle">Pelacak</string>
+    <string name="onboarding_slide3_desc">Fitur yang dapat mengirim pesan ke kontak yang telah ditentukan sebelumnya ketika smartphone terjatuh.</string>
+
+
+    <string name="onboarding_slide4_subtitle">Pembelajaran</string>
+    <string name="onboarding_slide4_desc">Fitur ini memberikan edukasi dan pelatihan bagi pengguna ponsel pintar tentang cara menjaga keamanan perangkat mereka.</string>
+
+    <string name="you_have_registered_2fa">Anda telah melakukan registrasi 2FA</string>
+    <string name="setup_2fa">Anda belum melakukan registrasi 2FA</string>
+
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="get_started">Mulai</string>
+
+    <string name="sign_in">Sign In</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login">Login</string>
+    <string name="new_user">New User?</string>
+    <string name="invalid_username">Invalid username</string>
+    <string name="invalid_password">Invalid password</string>
+
+    <string name="home_screen_title">Home</string>
+    <string name="home_screen_text">Can\'t walk? then fly!</string>
+    <string name="previous">previous</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="error_hw_unavailable">The hardware is unavailable. Try again later.</string>
+    <string name="error_unable_to_process">The sensor was unable to process the current image.</string>
+    <string name="error_time_out">The current operation has been running too long and has timed out.</string>
+    <string name="error_no_space">The operation can\'t be completed because there is not enough device storage remaining.</string>
+    <string name="error_canceled">The operation was canceled by the user or because the biometric sensor is unavailable.</string>
+    <string name="error_lockout">The operation was canceled because the biometrics is locked out due to too many attempts. This occurs after 5 failed attempts, and lasts for 30 seconds.</string>
+    <string name="error_vendor">The operation failed due to a vendor-specific error.</string>
+    <string name="error_lockout_permanent">Wrong biometrics too many times. Use device credential to unlock.</string>
+    <string name="error_user_canceled">The user canceled the operation.</string>
+    <string name="error_no_biometrics">The Device does not have any biometrics enrolled.</string>
+    <string name="error_hw_not_present">The device does not have the required authentication hardware.</string>
+    <string name="error_no_device_credentials">The device does not have pin, pattern, or password set up.</string>
+    <string name="error_security_update_required">A security vulnerability has been discovered with one or more hardware sensors. The affected sensor(s) are unavailable until a security update has addressed the issue.</string>
+    <string name="error_unknown">Unknown error.</string>
+    <string name="message_user_app_authentication">Denied for Biometrics</string>
+    <string name="text_unlock">Unlock</string>
+    <string name="message_set_up_pattern">Set up PIN/Pattern/Password.</string>
+    <string name="title_device_lock">Device Lock</string>
+    <string name="title_set_up_device_lock">Set up Device lock.</string>
+
+    <string name="title_biometric_dialog">Biometrics</string>
+    <string name="text_description_biometrics_dialog">Use biometrics to continue.</string>
+    <string name="text_negative_button_biometric_dialog">Use other way</string>
+    <string name="message_success">Success</string>
+    <string name="message_no_support_biometrics">Device not support Biometrics</string>
+    <string name="message_no_hardware_available">No Hardware available</string>
+
+</resources>
